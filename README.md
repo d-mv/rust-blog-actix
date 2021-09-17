@@ -1,1 +1,0 @@
-sqlite3 blog_db.sqlt < ./migrations/2021-09-16-174729_create_users/up.sql
