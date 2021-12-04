@@ -367,6 +367,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
 
 [[package]]
+name = "blog-actix"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "diesel",
+ "dotenv",
+ "env_logger",
+ "futures",
+ "serde",
+ "serde_derive",
+ "serde_json",
+]
+
+[[package]]
 name = "brotli-sys"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1442,20 +1456,6 @@ checksum = "11834e137f3b14e309437a8276714eed3a80d1ef894869e510f2c0c0b98b9f4a"
 dependencies = [
  "hostname",
  "quick-error",
-]
-
-[[package]]
-name = "rust-blog-actix"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "diesel",
- "dotenv",
- "env_logger",
- "futures",
- "serde",
- "serde_derive",
- "serde_json",
 ]
 
 [[package]]
